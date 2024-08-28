@@ -5,15 +5,13 @@ main(){
     int shmID;
     int *shm;
     int tc;
-    int TIMER;
+    int TIMER = 0;
     int cookTime;
     key = 0x520260A;
     shmID = shmget(key, sizeof(int)*10, 0666);
     shm = shmat(shmID, 0, 0);
+
     *(shm+TIMER) = 0; // initial value for timer
-
-
-
 
     tc == 0; // initial value for timer
     while(1){
@@ -25,6 +23,5 @@ main(){
             }
         }
         sleep(1);
-        
-
+    }
 }

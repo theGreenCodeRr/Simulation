@@ -9,7 +9,6 @@ main(){
     int TIMER;
 
 
-
     while (1)   
         {
             // menu 
@@ -20,7 +19,7 @@ main(){
         if(choice == 1){
             // get reset value from user
             scanf("%d", &timeDuration);
-            *(shm+TIMER)) = timeDuration;
+            *(shm+TIMER) = timeDuration;
         }
         else if(choice == 2){
             // do something

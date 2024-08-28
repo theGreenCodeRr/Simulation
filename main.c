@@ -23,7 +23,7 @@ main(){
         printf("door stat: %d\n", *(shm+DOOR));
         printf("Emitter: %d\n", *(shm+EMITTER));
 
-        sleep(1);
+        //sleep(1);
     }
     
 }
