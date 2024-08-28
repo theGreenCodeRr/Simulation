@@ -17,6 +17,6 @@ main(){
     while(*shm+SYNCH);
 
     while (1){
-        c
+        
     }
 }
